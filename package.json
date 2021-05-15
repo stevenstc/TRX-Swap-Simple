@@ -15,7 +15,7 @@
   "bugs": {
     "url": ""
   },
-  "homepage": "https://lioncoin.club",
+  "homepage": "https://stevenstc.github.io/TRX-Swap-Simple/",
   "dependencies": {
     "@babel/core": "7.8.4",
     "@svgr/webpack": "4.3.3",

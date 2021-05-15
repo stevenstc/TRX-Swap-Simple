@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Utils from "../../utils";
 import contractAddress from "../Contract";
 
-import cons from "../../cons.js";
+//import cons from "../../cons.js";
 
 export default class EarnTron extends Component {
   constructor(props) {
@@ -39,6 +39,7 @@ export default class EarnTron extends Component {
       "</a>";
 
     var min = 10;
+    /*
 
     var tronUSDT = await window.tronWeb;
     var contractUSDT = await tronUSDT.contract().at(cons.USDT);
@@ -48,17 +49,12 @@ export default class EarnTron extends Component {
       .call();
     aprovado = parseInt(aprovado.remaining._hex);
 
-    if (aprovado > 0 || true) {
-      aprovado = "Comprar";
-    } else {
-      aprovado = "Approve";
-    }
+    */
 
     var rate = await Utils.contract.RATE().call();
 
     this.setState({
       min: min,
-      deposito: aprovado,
       rate: rate / 1000000
     });
 
@@ -164,9 +160,7 @@ export default class EarnTron extends Component {
             href="#root"
             className="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger"
             onClick={() => this.compra()}
-          >
-            {this.state.deposito}
-          </a>
+          >Comprar</a>
         </div>
       </div>
     );

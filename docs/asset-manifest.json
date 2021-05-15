@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/static/js/main.a1f800d4.chunk.js",
-    "main.js.map": "/static/js/main.a1f800d4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ea271ed6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ea271ed6.js.map",
-    "static/js/2.8926c93c.chunk.js": "/static/js/2.8926c93c.chunk.js",
-    "static/js/2.8926c93c.chunk.js.map": "/static/js/2.8926c93c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a712b877b0c0acdbddba6b9f2585a34c.js": "/precache-manifest.a712b877b0c0acdbddba6b9f2585a34c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.8926c93c.chunk.js.LICENSE.txt": "/static/js/2.8926c93c.chunk.js.LICENSE.txt",
-    "static/media/TronLinkLogo.png": "/static/media/TronLinkLogo.d3a8f115.png"
+    "main.js": "/TRX-Swap-Simple/static/js/main.f6d8dc95.chunk.js",
+    "main.js.map": "/TRX-Swap-Simple/static/js/main.f6d8dc95.chunk.js.map",
+    "runtime-main.js": "/TRX-Swap-Simple/static/js/runtime-main.0afa11f6.js",
+    "runtime-main.js.map": "/TRX-Swap-Simple/static/js/runtime-main.0afa11f6.js.map",
+    "static/js/2.d50bd0f3.chunk.js": "/TRX-Swap-Simple/static/js/2.d50bd0f3.chunk.js",
+    "static/js/2.d50bd0f3.chunk.js.map": "/TRX-Swap-Simple/static/js/2.d50bd0f3.chunk.js.map",
+    "index.html": "/TRX-Swap-Simple/index.html",
+    "precache-manifest.04d04bbb431a7f05ad580116d6ce2322.js": "/TRX-Swap-Simple/precache-manifest.04d04bbb431a7f05ad580116d6ce2322.js",
+    "service-worker.js": "/TRX-Swap-Simple/service-worker.js",
+    "static/js/2.d50bd0f3.chunk.js.LICENSE.txt": "/TRX-Swap-Simple/static/js/2.d50bd0f3.chunk.js.LICENSE.txt",
+    "static/media/TronLinkLogo.png": "/TRX-Swap-Simple/static/media/TronLinkLogo.d3a8f115.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea271ed6.js",
-    "static/js/2.8926c93c.chunk.js",
-    "static/js/main.a1f800d4.chunk.js"
+    "static/js/runtime-main.0afa11f6.js",
+    "static/js/2.d50bd0f3.chunk.js",
+    "static/js/main.f6d8dc95.chunk.js"
   ]
 }
