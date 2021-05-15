@@ -118,11 +118,11 @@ class App extends Component {
 
     return (
       <>
-        <section class="download bg-primary text-center" id="download">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 mx-auto">
-                <h2 class="section-heading">Compra LION COIN!</h2>
+        <section className="download bg-primary text-center" id="download">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 mx-auto">
+                <h2 className="section-heading">Compra LION COIN!</h2>
                 <p>
                   No te pierdas la gran oportunidad de ser pionero al invertir!
                 </p>
