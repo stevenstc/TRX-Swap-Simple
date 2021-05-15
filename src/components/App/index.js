@@ -3,10 +3,7 @@ import TronWeb from "tronweb";
 
 import Utils from "../../utils";
 import CrowdFunding from "../CrowdFunding";
-import Datos from "../Datos";
-import Oficina from "../Oficina";
 import TronLinkGuide from "../TronLinkGuide";
-
 
 const FOUNDATION_ADDRESS = "TWiWt5SEDzaEqS6kE5gandWMNfxR2B5xzg";
 
@@ -41,7 +38,6 @@ class App extends Component {
 
       const timer = setInterval(() => {
         if (tries >= 10) {
-
           const TRONGRID_API = "https://api.trongrid.io";
 
           window.tronWeb = new TronWeb(
@@ -102,52 +98,41 @@ class App extends Component {
   }
 
   render() {
-    if (!this.state.tronWeb.installed) return (
-      <>
-        <div className="container">
-          <TronLinkGuide />
-        </div>
-      </>
+    if (!this.state.tronWeb.installed)
+      return (
+        <>
+          <div className="container">
+            <TronLinkGuide />
+          </div>
+        </>
       );
 
-    if (!this.state.tronWeb.loggedIn) return (
-      <>
-        <div className="container">
-          <TronLinkGuide installed />
-        </div>
-      </>
+    if (!this.state.tronWeb.loggedIn)
+      return (
+        <>
+          <div className="container">
+            <TronLinkGuide installed />
+          </div>
+        </>
       );
 
     return (
-
       <>
-
-      <section className="convert-area" id="convert">
-        <div className="container">
-          <div className="convert-wrap">
-            <div className="row justify-content-center align-items-center flex-column pb-30">
-              <h1 className="text-white">Make your investment</h1>
-            </div>
-            <div className="row justify-content-center align-items-start">
-
-              <div className="col-lg-12 cols">
+        <section class="download bg-primary text-center" id="download">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 mx-auto">
+                <h2 class="section-heading">Compra LION COIN!</h2>
+                <p>
+                  No te pierdas la gran oportunidad de ser pionero al invertir!
+                </p>
                 <CrowdFunding />
               </div>
-
             </div>
           </div>
-        </div>
-      </section>
-
-      <Oficina />
-
-      <div class="space-90"></div>
-
-      <Datos />
-
+        </section>
       </>
     );
-
   }
 }
 export default App;
