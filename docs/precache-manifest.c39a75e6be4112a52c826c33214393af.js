@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b18a657be626c99250085a4ea82bde0",
+    "revision": "23343eba47057ff76ef7c01697cd4be6",
     "url": "/TRX-Swap-Simple/index.html"
   },
   {

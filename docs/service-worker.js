@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TRX-Swap-Simple/precache-manifest.04d04bbb431a7f05ad580116d6ce2322.js"
+  "/TRX-Swap-Simple/precache-manifest.c39a75e6be4112a52c826c33214393af.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -154,7 +154,7 @@ export default class EarnTron extends Component {
             id="amount"
             placeholder={min}
           ></input>
-          <p className="card-text">Debes tener TRX para hacer la transacción</p>
+          <p className="card-text">Debes tener almenos 5 TRX para hacer la transacción</p>
 
           <a
             href="#root"
