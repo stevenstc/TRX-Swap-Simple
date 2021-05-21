@@ -122,9 +122,9 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8 mx-auto">
-                <h2 className="section-heading">Compra LION COIN!</h2>
+                <h2 className="section-heading">Buy LION COIN!</h2>
                 <p>
-                  No te pierdas la gran oportunidad de ser pionero al invertir!
+                  Dont miss the oportunity to help!
                 </p>
                 <CrowdFunding />
               </div>

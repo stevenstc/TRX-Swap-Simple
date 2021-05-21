@@ -9,11 +9,17 @@ export default class EarnTron extends Component {
     super(props);
 
     this.state = {
-      min: 10
+      min: 10,
+      value: ""
     };
 
     this.compra = this.compra.bind(this);
     this.estado = this.estado.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({value: event.target.value});
   }
 
   async componentDidMount() {
@@ -149,18 +155,17 @@ export default class EarnTron extends Component {
         <div className="form-group text-center">
           <p className="card-text">1 LCN = {this.state.rate} TRX</p>
           <input
-            type="number"
-            className="form-control mb-20 text-center"
-            id="amount"
+            type="number" className="form-control mb-20 text-center" id="amount" value={this.state.value} onChange={this.handleChange}
             placeholder={min}
           ></input>
-          <p className="card-text">Debes tener almenos 5 TRX para hacer la transacción</p>
+          <p className="card-text">you get: {this.state.value/this.state.rate} LCN</p>
+          <p className="card-text">You have TRX in you acount to make the transacction</p>
 
           <a
             href="#root"
             className="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger"
             onClick={() => this.compra()}
-          >Comprar</a>
+          >Buy LCN</a>
         </div>
       </div>
     );
