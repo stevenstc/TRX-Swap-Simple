@@ -122,6 +122,7 @@ class App extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-8 mx-auto">
+                <img class="img-fluid" src="assets/img/lioncoin.png" width="25%" alt="lioncoin"></img>
                 <h2 className="section-heading">Buy LION COIN!</h2>
                 <p>
                   Dont miss the oportunity to help!

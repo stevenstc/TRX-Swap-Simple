@@ -159,13 +159,14 @@ export default class EarnTron extends Component {
             placeholder={min}
           ></input>
           <p className="card-text">you get: {this.state.value/this.state.rate} LCN</p>
-          <p className="card-text">You have TRX in you acount to make the transacction</p>
 
           <a
             href="#root"
             className="btn btn-outline-light py-3 px-4 rounded-pill js-scroll-trigger"
             onClick={() => this.compra()}
           >Buy LCN</a>
+          
+          <p className="card-text">You have TRX in you acount to make the transacction</p>
         </div>
       </div>
     );
