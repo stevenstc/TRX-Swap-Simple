@@ -1,5 +1,5 @@
 {
-  "name": "lioncoin",
+  "name": "trxsimpleswap",
   "version": "1.0.0",
   "description": "Es la aplicacion para hacer hacer swap de una criptomoneda",
   "main": "tronbox.js",
@@ -10,12 +10,12 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js && npx rimraf docs && npx move-cli build docs"
   },
-  "author": "lioncoin",
+  "author": "simpleswap",
   "license": "Apache 2.0",
   "bugs": {
     "url": ""
   },
-  "homepage": "https://lioncoin.club/",
+  "homepage": "https://simpleswap.ml/",
   "dependencies": {
     "@babel/core": "7.8.4",
     "@svgr/webpack": "4.3.3",
